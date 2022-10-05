@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+
+}
+
+
+h1{
+    font-size: 1.5em;
+    font-family:'Playfair Display', serif ;
+    font-weight:bolder;
+    color:#A6450E;
+}
+
+h2{
+    color:#FFC300;
+    font-family:'PT Serif', serif;
+    font-size: 1.75em;
+    font-weight:400;
+
+}
+
+li{
+    line-height:1;
+    font-style: oblique;
+}
+
+
+.Banner{
+font-weight: lighter;
+font-style: italic;
+}
+
+
+
+
+img{
+    border: 4px solid #FFC300;
+    align-self: center;
+}
