@@ -39,6 +39,8 @@ h1 {
     text-transform: lowercase;
 
 }
+.menu a,
+a,
 address a:hover{
     text-decoration: underline;
     text-transform: capitalize;
@@ -48,11 +50,10 @@ address a:hover{
 }
 
 
-menu a::backdrop{
-    background: #f8dcd1;
+menu a {
+    background: #782505;
     padding: 0.25em;
-    text-align:center;
-}
+    }
 
 menu a:hover{
     color:white;
