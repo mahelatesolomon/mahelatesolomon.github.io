@@ -1,0 +1,72 @@
+/* FONTS 
+font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Montserrat', sans-serif;
+   
+
+Colors
+background-color:#fff3b0 ;
+#335c67= blue
+#fff3b0= pale cream
+#e09f3e= orange
+#9e2a2b= light red
+#540b0e= red
+*/
+
+body {
+    background-color: #fff3b0;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size:12px;
+    color: #55390f
+}
+
+h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #581845;
+    display: block;
+    letter-spacing: .1em;
+}
+
+h1 {
+
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+
+}
+address a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color:#e09f3e;
+    display: block;
+    letter-spacing: .1em;
+}
+
+
+menu a{
+    background: #f8dcd1;
+    padding: 0.25em;
+}
+
+menu a:hover{
+    color:white;
+
+}
+
+address{
+    font-size:.5em;
+
+}
+
+p{
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+footer{
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.5em;
+    line-height: 0;
+    text-transform:uppercase
+}
