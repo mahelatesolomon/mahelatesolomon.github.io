@@ -71,7 +71,7 @@ footer{
     font-family:'Montserrat', sans-serif;
     font-size: 0.2em;
     line-height: 0;
-    text-transform:uppercase
+    text-transform:uppercase;
 }
 
 @media (min-width:450px){
