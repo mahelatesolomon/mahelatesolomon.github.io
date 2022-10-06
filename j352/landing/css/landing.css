@@ -53,7 +53,8 @@ address a:hover{
 .menu,
 menu a {
     background: #782505;
-    padding: 0.25em;
+    padding: 0.05em;
+    text-align: center;
     }
 
 menu a:hover{
