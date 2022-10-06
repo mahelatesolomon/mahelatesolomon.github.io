@@ -21,6 +21,7 @@ body {
 
 .container{
     text-align: justify;
+    padding:2em;
 }
 
 h1 {
@@ -49,7 +50,7 @@ address a:hover{
     letter-spacing: .1em;
 }
 
-
+.menu,
 menu a {
     background: #782505;
     padding: 0.25em;
@@ -62,14 +63,12 @@ menu a:hover{
 
 address{
     font-size:.5em;
-
 }
 
 p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     margin:2em;
-
 }
 
 footer{
@@ -77,6 +76,7 @@ footer{
     font-size: 0.2em;
     line-height: 0;
     text-transform:uppercase;
+    text-align:center;
 }
 
 @media (max-width:450px){
