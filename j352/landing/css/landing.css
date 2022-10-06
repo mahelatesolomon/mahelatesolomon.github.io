@@ -12,8 +12,6 @@ background-color:#fff3b0 ;
 #540b0e= red
 */
 
-
-/* body text */
 body {
     background-color: #fff3b0;
     font-family: 'Gemunu Libre', sans-serif;
@@ -34,22 +32,14 @@ h1 {
     display: block;
     letter-spacing: .1em;
 }
-/* title i think */
+
 h1 {
 
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     text-transform: lowercase;
-    text-decoration: underline;
-    font-size:6em;
-    color: #410505;
-    display: block;
-    letter-spacing: .1em;
-    font-weight: 600;
+
 }
-
-
-/* menu/ navigation bar */
 .menu a,
 a,
 address a:hover{
@@ -71,17 +61,17 @@ menu a:hover{
     color:white;
 
 }
-/* address + email and number */
+
 address{
     font-size:.5em;
 }
-/* paragraph */
+
 p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
     margin:2em;
 }
-/* est.date and copyright */
+
 footer{
     font-family:'Montserrat', sans-serif;
     font-size: 0.2em;
@@ -89,7 +79,7 @@ footer{
     text-transform:uppercase;
     text-align:center;
 }
-/* phone stuff */
+
 @media (max-width:450px){
     h1{
         font-size:1em;
