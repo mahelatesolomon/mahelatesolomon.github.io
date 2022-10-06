@@ -44,7 +44,7 @@ address a:hover{
 }
 
 
-menu a{
+menu a::backdrop{
     background: #f8dcd1;
     padding: 0.25em;
 }
@@ -62,7 +62,6 @@ address{
 p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
-    text-transform:uppercase;
     margin:2em;
 
 }
@@ -86,6 +85,8 @@ footer{
     menu{
         margin: 3em;
         padding: 0 0 0 .8em;
+        box-sizing: content-box;
+
     }
     
     
