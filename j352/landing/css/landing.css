@@ -22,6 +22,7 @@ body {
 h1 {
     text-decoration: none;
     text-transform: uppercase;
+    font-size:6em;
     color: #581845;
     display: block;
     letter-spacing: .1em;
@@ -61,6 +62,8 @@ address{
 p{
     text-align: justify;
     font-family:'Montserrat', sans-serif;
+    text-transform:uppercase;
+    margin:2em;
 
 }
 
@@ -69,4 +72,21 @@ footer{
     font-size: 0.5em;
     line-height: 0;
     text-transform:uppercase
+}
+
+@media (min-width:450px){
+    h1{
+        font-size:1em;
+        text-align:left;
+
+    }
+    address{
+        margin:2em;
+    }
+    menu{
+        margin: 3em;
+        padding: 0 0 0 .8em;
+    }
+    
+    
 }
