@@ -1,0 +1,104 @@
+/* FONTS 
+font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Montserrat', sans-serif;
+   
+
+Colors
+background-color:#fff3b0 ;
+#335c67= blue
+#fff3b0= pale cream
+#e09f3e= orange
+#9e2a2b= light red
+#540b0e= red
+*/
+
+body {
+    background-color: #fff3b0;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size:12px;
+    color: #55390f
+}
+
+.container{
+    text-align: justify;
+    padding:2em;
+}
+
+h1 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:6em;
+    color: #581845;
+    display: block;
+    letter-spacing: .1em;
+}
+
+h1 {
+
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: lowercase;
+
+}
+.menu a,
+a,
+address a:hover{
+    text-decoration: underline;
+    text-transform: capitalize;
+    color:#e09f3e;
+    display: block;
+    letter-spacing: .1em;
+}
+
+.menu,
+menu a {
+    background: #782505;
+    padding: 0.05em;
+    text-align: center;
+    }
+
+menu a:hover{
+    color:white;
+
+}
+
+address{
+    font-size:.5em;
+}
+
+p{
+    text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    margin:2em;
+}
+
+footer{
+    font-family:'Montserrat', sans-serif;
+    font-size: 0.2em;
+    line-height: 0;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+@media (max-width:450px){
+    h1{
+        font-size:1em;
+        text-align:left;
+
+    }
+    address{
+        margin:2em;
+    }
+    menu{
+        margin: 3em;
+        padding: 0 0 0 .8em;
+        box-sizing: content-box;
+
+    }
+    .container{
+        margin:2em;
+        padding:0 0 0 .8em;
+
+    }
+    
+}
