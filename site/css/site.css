@@ -27,95 +27,109 @@ background-color:#fff3b0 ;
 body {
     background-color: #fff3b0;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size:12px;
-    color: #1A4645;
+    font-size: 12px;
+    color: #266867;
     font-weight:600;
 }
 
-.container{
-    text-align: justify;
-    padding:2em;
+.container {
+    text-align: match-parent;
+    padding: 2em;
 }
 
 h1 {
     text-decoration: none;
     text-transform: uppercase;
-    font-size:6em;
-    color: #051821;
+    font-size: 6em;
+    color: #fff3b0;
     display: block;
     letter-spacing: .1em;
+    font-weight: 600;
+    text-align: center;
 }
 
 h1 {
-
-    font-size: 3em;
-    font-family:'Gideon Roman', cursive;
-    text-transform: lowercase;
-
+    font-size: 5em;
+    font-family: 'Gideon Roman', cursive;
+    text-transform: uppercase;
+    color: #F58800;
+    margin-bottom: 50px;
 }
+
+.col-sm-3 {
+    font-size: 30px;
+    }
+
 .menu a,
 a,
-address a:hover{
+address a:hover {
     text-decoration: underline;
     text-transform: capitalize;
-    color:#051821;
+    color: #051821;
     display: block;
     letter-spacing: .1em;
+    text-align: match-parent;
+
 }
 
 .menu,
 menu a {
     background: #F58800;
-    padding: 0.05em;
+    padding: 5em;
     text-align: center;
-    }
+    padding-top: 5em;
+    font-size: 1em;
+}
 
-menu a:hover{
-    color:white;
+menu a:hover {
+    color: #fff3b0;
 
 }
 
-address{
-    font-size:.5em;
+address {
+    font-size: .5em;
 }
 
-p{
-    text-align: justify;
-    font-family:'Montserrat', sans-serif;
-    margin:2em;
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2em;
 }
 
-footer{
-    font-family:'Montserrat', sans-serif;
+footer {
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.2em;
     line-height: 0;
-    text-transform:uppercase;
-    text-align:center;
+    text-align: center;
 }
+
 .boxed {
     box-sizing: border-box;
     border: 1px #266867;
-  }
+}
 
-@media (max-width:450px){
-    h1{
-        font-size:1em;
-        text-align:left;
+@media (max-width:450px) {
+    h1 {
+        font-size: 1em;
+        text-align: left;
 
     }
-    address{
-        margin:2em;
+
+    address {
+        margin: 2em;
     }
-    menu{
+
+    menu {
         margin: 3em;
         padding: 0 0 0 .8em;
         box-sizing: content-box;
 
     }
-    .container{
-        margin:2em;
-        padding:0 0 0 .8em;
+
+    .container {
+        margin: 2em;
+        padding: 0 0 0 .8em;
 
     }
-    
+
 }
