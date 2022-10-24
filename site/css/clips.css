@@ -19,10 +19,8 @@ background-color:#fff3b0 ;
 #1A4645= darkish blueish green
 #266867 =deep teal 
 #F58800= Orange
-#F8BC24 = yellow
+#F8BC24 = yellow */
 
-
-*/
 
 body {
     background-color: #fff3b0;
@@ -36,7 +34,6 @@ body {
 .container {
     padding: 2em;
     text-align: center;
-    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blurb{
@@ -123,29 +120,91 @@ footer {
 }
 
 
+address a:hover {
 
-@media (max-width:450px) {
-    h1 {
-        font-size: 1em;
-        text-align: left;
+    color: #051821;
+    display: block;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    display: inline;
+    padding: 0 1em 00;
+    font-size: .75em;
 
+}
+
+
+body {
+    font-size: 20px;
+    align-items: center;
     }
 
-    address {
-        margin: 2em;
-    }
+menu a {
+    background: #266867;
+    padding: 1em;
+    text-align: center;
+}
 
-    menu {
-        margin: 3em;
-        padding: 0 0 0 .8em;
-        box-sizing: content-box;
+menu a:hover {
+    color: #fff3b0;
 
-    }
+}
 
-    .container {
-        margin: 2em;
-        padding: 0 0 0 .8em;
+address {
+    font-size: .5em;
+}
 
-    }
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    padding: .5em;
+    color: #000;
+    text-transform: uppercase;
+    margin: 4em 0 0 0;
+}
 
+h1 {
+    margin: 1em 0 0 0;
+    font-size: 5em;
+}
+
+h2 {
+    margin: 3em 0;
+}
+
+footer {
+    margin-top: 50px;
+    font-family: 'Gideon Roman', cursive;
+    font-size: .8em;
+    line-height: 0;
+    text-transform: uppercase;
+    color:#266867;
+}
+
+
+
+
+.work {
+    text-transform: uppercase;
+
+}
+
+.desc {
+    text-transform: capitalize;
+}
+
+.work a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 1em 0;
+    letter-spacing: .1em;
+    background: #051821;
+    padding: .5em 0;
+}
+
+.work a:hover {
+    color: #F58800;
 }
