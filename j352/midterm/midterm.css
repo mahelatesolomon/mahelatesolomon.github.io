@@ -23,6 +23,7 @@ nav {
     margin-top: 1em;
     margin-bottom: 20px;
     font-family: 'Work Sans', sans-serif;
+    background-color: #F4F5F8;
 
 }
 
@@ -59,18 +60,16 @@ h3 {
 
 /* .biggie{ */
 
-/* .col-md-6 { 
-    text-align: center;
-}*/
+/* .col-md-6 { */
+    /* text-align: center; */
 
 .graphic-a {
     padding: 2em;
-    border-bottom: dashed, #1DB954;
-    font-family: 'Work Sans', sans-serif;
+       font-family: 'Work Sans', sans-serif;
     align-items: center;
     background-color: #EAEAEA;
-
-
+    text-align: center;
+    
 }
 
 .graphic-b {
@@ -79,19 +78,17 @@ h3 {
     font-family: 'Work Sans', sans-serif;
     align-items: center;
     background-color: #EAEAEA;
-}
-
-.chart-a {
-    border-bottom: 1px dotted #9DB4AB;
-    font-size: 1em;
     text-align: center;
 }
 
-.chart-b {
+.chart {
     border-bottom: 1px dotted #9DB4AB;
     font-size: 1em;
     text-align: center;
+
 }
+
+
 
 .footer {
     margin-top: 10px;
@@ -129,6 +126,44 @@ footer a:link {
     color: #152128;
     padding: 2em;
 
+}
 
+@media (max-width:450px){
+    .graphic-a{
+        font-size: .10em;
+    
+    }
+    .graphic-b{
+        font-size: 0.6em;
+        }
 
+    .responsive{
+        width: 100%;
+        height:auto;
+    }
+
+    article{
+        padding: 2em;
+    }
+    
+}
+
+@media (max-width:768){
+    .graphic-a{
+        font-size: .20em;
+    
+    }
+    .graphic-b{
+        font-size: 0.12em;
+        }
+
+    .responsive{
+        width: 100%;
+        height:auto;
+    }
+
+    article{
+        padding: 4em;
+    }
+    
 }
