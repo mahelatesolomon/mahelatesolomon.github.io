@@ -8,7 +8,7 @@ body:  Literata
 nav :  Poppins
 header, footer, graphics:  Work Sans
  */
- nav{
+nav {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 2em;
@@ -18,7 +18,7 @@ header, footer, graphics:  Work Sans
     margin: 5px 0 0 3px;
 
 }
- 
+
 .header {
     margin-top: 1em;
     margin-bottom: 20px;
@@ -26,43 +26,44 @@ header, footer, graphics:  Work Sans
 
 }
 
-.biggie{
+.biggie {
     align-items: center;
     border-image-source: none;
-    font-size: smaller;
+    resize: 300px, auto;
 }
 
 h1 {
-    padding-bottom: 2em;
+
     margin: 2em;
-    padding: 1em, 17em,1em;
+    padding: 1em, 0.75em;
     font-family: 'Work Sans', sans-serif;
-    text-align:center;
+    text-align: center;
     font-size: 1.5em;
 
-    
+
 }
 
 h2 {
-    padding-bottom: 12px;
+    padding: 0, 0.75;
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     font-size: 30px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 15px;
 }
+
 /* container-fluid (im not sure what to do with this yet  */
 
 /* .biggie{ */
 
-.col-md-6{
+/* .col-md-6 { 
     text-align: center;
-}
+}*/
 
-.graphic-a{
+.graphic-a {
     padding: 2em;
     border-bottom: dashed, #1DB954;
     font-family: 'Work Sans', sans-serif;
@@ -80,25 +81,26 @@ h3{
     background-color: #EAEAEA;
 }
 
-.chart-a{
-    border-bottom:1px dotted #9DB4AB;
+.chart-a {
+    border-bottom: 1px dotted #9DB4AB;
     font-size: 1em;
     text-align: center;
 }
 
-.chart-b{
-    border-bottom:1px dotted #9DB4AB;
+.chart-b {
+    border-bottom: 1px dotted #9DB4AB;
     font-size: 1em;
     text-align: center;
 }
-footer {
+
+.footer {
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 300;
     font-family: 'Work Sans', sans-serif;
     margin: 1em, 0, 10em;
     font-size: 1em;
-    color:black;
+    color: black;
 }
 
 .footer,
@@ -112,15 +114,21 @@ footer a:link {
     border: 550px;
 }
 
-.body {
-    background-color:#F4F5F8;
+.article {
+    background-color: #F4F5F8;
     font-family: 'Literata', serif;
-    font-size:15px;
-    color:#152128;
-    text-align: center;
+    font-size: 15px;
+    color: #152128;
+    padding: 2em;
+}
+
+.body {
+    background-color: #F4F5F8;
+    font-family: 'Literata', serif;
+    font-size: 15px;
+    color: #152128;
     padding: 2em;
 
 
 
 }
-
