@@ -1,0 +1,176 @@
+/* 
+#F4ba38..... Mustard yellow... bolded words
+#425938......forest green.....special text (think heading and such)
+#625858......dark gray..... Text
+#efeee9......slate white/gray .....photo box background
+#ffffff.....white ...............background
+
+
+FONTS:
+TITLES: font-family: 'Montserrat',
+sans-serif;
+
+
+Body font:
+font-family: 'Playfair
+Display', serif;
+ */
+ nav {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 5px 0 0 3px;
+
+}
+
+.header {
+    margin-top: 1em;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F4F5F8;
+
+}
+
+/* .biggie { 
+    align-items: center;
+    border-image-source: none;
+    resize: 300px, auto;
+ } */
+
+h1 {
+
+    margin: 2em;
+    padding: 1em, 0.75em;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+
+
+}
+
+h2 {
+    padding: 0, 0.75;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* container-fluid (im not sure what to do with this yet  */
+
+/* .biggie{ */
+
+/* .col-md-6 { */
+    /* text-align: center; */
+
+.graphic-a {
+    padding: 2em;
+       font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    background-color: #EAEAEA;
+    text-align: center;
+    
+}
+
+.graphic-b {
+    padding: 2em;
+    border-bottom: dashed, #1DB954;
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    background-color: #EAEAEA;
+    text-align: center;
+}
+
+.chart {
+    border-bottom: 1px dotted #9DB4AB;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    margin: 1em, 0, 10em;
+    font-size: 1em;
+    color: black;
+}
+
+.footer,
+footer a:link {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.container-fluid {
+    border: 550px;
+}
+
+.article {
+    background-color: #F4F5F8;
+    font-family: 'Literata', serif;
+    font-size: 15px;
+    color: #152128;
+    padding: 2em;
+}
+
+.body {
+    background-color: #F4F5F8;
+    font-family: 'Literata', serif;
+    font-size: 15px;
+    color: #152128;
+    padding: 2em;
+
+}
+
+@media (max-width:450px){
+    .graphic-a{
+        font-size: .10em;
+    
+    }
+    .graphic-b{
+        font-size: 0.6em;
+        }
+
+    .responsive{
+        width: 100%;
+        height:auto;
+    }
+
+    article{
+        padding: 2em;
+    }
+    
+}
+
+@media (max-width:768){
+    .graphic-a{
+        font-size: .20em;
+    
+    }
+    .graphic-b{
+        font-size: 0.12em;
+        }
+
+    .responsive{
+        width: 100%;
+        height:auto;
+    }
+
+    article{
+        padding: 4em;
+    }
+    
+}
