@@ -14,17 +14,49 @@ sans-serif;
 Body font:
 font-family: 'Playfair
 Display', serif;
- */
-nav { 
-    font-family: 'Playfair Display', sans-serif;
-    text-align: center;
-    padding: 2em;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 5px 0 0 3px;
+
+@media (max-width:450px) {
+    .graphic-a {
+        font-size: .10em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.6em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 2em;
+    }
 
 }
+
+@media (max-width:768) {
+    .graphic-a {
+        font-size: .20em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.12em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 4em;
+    }
+}
+ */
+
 
 .header {
     margin-top: 1em;
@@ -35,7 +67,17 @@ nav {
     margin: 5px 0 0 3px;
 }
 
+.title{
+    align-items: center;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 5px 0 0 3px;
 
+}
 
 h1 {
 
@@ -62,7 +104,9 @@ h2 {
     margin: 5px 0 0 3px;
 }
 
-
+.image1{
+    align-items: center;
+}
 
 
 main{
@@ -135,44 +179,4 @@ footer a:link {
 
 }
 
-@media (max-width:450px) {
-    .graphic-a {
-        font-size: .10em;
 
-    }
-
-    .graphic-b {
-        font-size: 0.6em;
-    }
-
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
-
-    article {
-        padding: 2em;
-    }
-
-}
-
-@media (max-width:768) {
-    .graphic-a {
-        font-size: .20em;
-
-    }
-
-    .graphic-b {
-        font-size: 0.12em;
-    }
-
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
-
-    article {
-        padding: 4em;
-    }
-
-}
