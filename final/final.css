@@ -1,15 +1,16 @@
 body{
-    font-family:'Playfair Display', serif;
+    font-family:'Montserrat', sans-serif;
     font-size:15px;
     background-color:#425938;
-    text-align:center;
+
     color:#efeee9
 }
 nav {
     text-align: center;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Playfair Display', serif;
     font-size:2em;
     font-weight:500px;
+    padding:1em ;
 }
 
 
@@ -20,7 +21,7 @@ nav {
 
 
 header {
-    font-family:'Montserrat', sans-serif;
+    font-family:'Playfair Display', serif;
 }
 
 
