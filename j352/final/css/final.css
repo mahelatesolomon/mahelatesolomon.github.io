@@ -1,0 +1,77 @@
+/* 
+#F4ba38..... Mustard yellow... bolded words
+#425938......forest green.....special text (think heading and such)
+#625858......dark gray..... Text
+#efeee9......slate white/gray .....photo box background
+#ffffff.....white ...............background
+
+
+FONTS:
+TITLES: font-family: 'Montserrat',
+sans-serif;
+
+
+Body font:
+font-family: 'Playfair
+Display', serif;
+
+@media (max-width:450px) {
+    .graphic-a {
+        font-size: .10em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.6em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 2em;
+    }
+
+}
+
+@media (max-width:768) {
+    .graphic-a {
+        font-size: .20em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.12em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 4em;
+    }
+}
+ */
+body{
+    font-family:'Playfair Display', serif;
+    font-size:15px;
+    background-color:#425938;
+    text-align:center;
+    color:#efeee9
+}
+.nav{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size:2em;
+    font-weight:500px;
+}
+
+.title{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    align-items: center;
+}
