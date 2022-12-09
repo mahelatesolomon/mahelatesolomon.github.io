@@ -63,15 +63,15 @@ body{
     text-align:center;
     color:#efeee9
 }
-.nav{
+nav{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size:2em;
     font-weight:500px;
 }
 
-.title{
-    text-align: center;
-    font-family:'Montserrat', sans-serif;
+
+.image2{
     align-items: center;
+    border-color:#625858;
 }
