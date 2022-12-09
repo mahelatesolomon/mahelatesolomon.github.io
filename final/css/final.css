@@ -1,3 +1,35 @@
+body{
+    font-family:'Playfair Display', serif;
+    font-size:15px;
+    background-color:#425938;
+    text-align:center;
+    color:#efeee9
+}
+nav {
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size:2em;
+    font-weight:500px;
+}
+
+
+.image2 {
+    align-items: center;
+    border-color:#625858;
+}
+
+
+header {
+
+}
+
+
+article {
+    text-emphasis-color:#F4ba38;
+    
+}
+
+
 /* 
 #F4ba38..... Mustard yellow... bolded words
 #425938......forest green.....special text (think heading and such)
@@ -56,22 +88,3 @@ Display', serif;
     }
 }
  */
-body{
-    font-family:'Playfair Display', serif;
-    font-size:15px;
-    background-color:#425938;
-    text-align:center;
-    color:#efeee9
-}
-nav{
-    text-align: center;
-    font-family:'Montserrat', sans-serif;
-    font-size:2em;
-    font-weight:500px;
-}
-
-
-.image2{
-    align-items: center;
-    border-color:#625858;
-}
