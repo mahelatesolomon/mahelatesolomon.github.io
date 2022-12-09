@@ -1,24 +1,30 @@
 body{
     font-family:'Montserrat', sans-serif;
     font-size:15px;
-    background-color:#425938;
+    background-color:#efeee9;
+    
 
-    color:#efeee9
+    color:#625858
 }
 nav {
     text-align: center;
     font-family:'Playfair Display', serif;
     font-size:2em;
     font-weight:500px;
-    padding:1em ;
+    padding: 10px;
 }
 
 
-.image2 {
+.image2{
+align-items: center;
+box-shadow:#425938 ;
+resize: both;
+}
+
+.image1{
     align-items: center;
-    border-color:#625858;
-}
-
+    box-shadow:#425938 ;
+    }
 
 header {
     font-family:'Playfair Display', serif;
@@ -30,6 +36,47 @@ article {
 
 }
 
+@media (max-width:450px) {
+    .graphic-a {
+        font-size: .10em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.6em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 2em;
+    }
+
+}
+
+@media (max-width:768) {
+    .graphic-a {
+        font-size: .20em;
+
+    }
+
+    .graphic-b {
+        font-size: 0.12em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        padding: 4em;
+    }
+}
+ 
 
 /* 
 #F4ba38..... Mustard yellow... bolded words
