@@ -1,38 +1,62 @@
-body{
-    font-family:'Montserrat', sans-serif;
-    font-size:15px;
-    background-color:#efeee9;
-    
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #efeee9;
 
-    color:#625858
+
+    color: #625858
 }
+
 nav {
     text-align: center;
-    font-family:'Playfair Display', serif;
-    font-size:2em;
-    font-weight:500px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: 500px;
     padding: 10px;
 }
 
 
-.image2{
-align-items: center;
-box-shadow:#425938 ;
-resize: both;
+.image2 {
+    align-items: justify;
+    box-sizing: border-box;
+    box-shadow: #425938;
+    resize: both;
 }
 
-.image1{
+.byline {
+    font-size: 10px;
+}
+
+.image1 {
     align-items: center;
-    box-shadow:#425938 ;
-    }
+    box-shadow: #425938;
+}
 
 header {
-    font-family:'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
 article {
-    text-emphasis-color:#F4ba38;
+    text-emphasis-color: #F4ba38;
+
+}
+
+.graphic-a{
+    background-color: #efeee9 ;
+    color: #425938;
+}
+
+.graphic-b{
+    background-color: #efeee9 ;
+    color: #425938;
+}
+
+.footer {
+    box-sizing: content-box;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
 
 }
 
@@ -53,13 +77,41 @@ article {
 
     article {
         padding: 2em;
+        margin: 0 1em;
+    }
+
+    header {
+        margin: 0 1em;
+    }
+
+    .article {
+        padding: 0 2em 0 0;
+
     }
 
 }
 
-@media (max-width:768) {
+@media (max-width:775) {
+    nav {
+        margin: .5em, 0;
+    }
+
+    header {
+        padding: 0 2em 0 0;
+    }
+
+    .image1 {
+        margin: 0 0 3em 0;
+        font-size: 1em;
+    }
+
+    .byline {
+        padding: 0 2 em 0 0;
+    }
+
     .graphic-a {
-        font-size: .20em;
+        margin: 2.5em 0;
+        padding: 2em 1em;
 
     }
 
@@ -75,8 +127,13 @@ article {
     article {
         padding: 4em;
     }
+
+    .footer {
+        font-weight: 200px;
+        margin: 2em 0 5em 0;
+    }
 }
- 
+
 
 /* 
 #F4ba38..... Mustard yellow... bolded words
