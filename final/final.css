@@ -17,10 +17,11 @@ nav {
 
 
 .image2 {
-    align-items: justify;
+    align-items:center;
     box-sizing: border-box;
-    box-shadow: #425938;
-    resize: both;
+    height:auto;
+    max-width: 100%;
+
 }
 
 .byline {
@@ -30,6 +31,8 @@ nav {
 .image1 {
     align-items: center;
     box-shadow: #425938;
+    max-width: 100%;
+    height:auto;
 }
 
 header {
